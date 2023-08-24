@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.carousel {
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-slide {
+    display: flex;
+    width: 3%; /* 3 images */
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel img {
+    width: 50%;
+    height: auto;
+}
+
